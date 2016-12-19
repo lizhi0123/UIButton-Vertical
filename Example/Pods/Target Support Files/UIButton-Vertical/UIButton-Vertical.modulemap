@@ -1,0 +1,6 @@
+framework module UIButton_Vertical {
+  umbrella header "UIButton-Vertical-umbrella.h"
+
+  export *
+  module * { export * }
+}

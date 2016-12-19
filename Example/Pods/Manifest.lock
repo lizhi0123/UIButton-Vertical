@@ -1,0 +1,16 @@
+PODS:
+  - UIButton-Vertical (0.1.0)
+
+DEPENDENCIES:
+  - UIButton-Vertical (from `../`)
+
+EXTERNAL SOURCES:
+  UIButton-Vertical:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIButton-Vertical: 4438d77e7537a4a901f5acb9cb0ca538c15072a6
+
+PODFILE CHECKSUM: 4274048602f68b5d9a4048dd49086a4d21f20578
+
+COCOAPODS: 1.1.1

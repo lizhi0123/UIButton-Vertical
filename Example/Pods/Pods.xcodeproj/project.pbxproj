@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0114531E0E748DE3A6232FB51E8F2A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		02D28F5F379F9349CD0FF3CC3C615807 /* Pods-UIButton-Vertical_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1278C016EBDA5957DCFDB2BAFF9F4D67 /* Pods-UIButton-Vertical_Example-dummy.m */; };
+		08C8613EEA6433FD4C0192923A65B54F /* Pods-UIButton-Vertical_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A381995DAAEBA6FF9113E0DF5171 /* Pods-UIButton-Vertical_Tests-dummy.m */; };
+		153ADAEF04363D9ED590FF81C034DE15 /* Pods-UIButton-Vertical_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0725A497FBF266DAA47438905E54180F /* Pods-UIButton-Vertical_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C3EFD50870AC7260327E55BFD936D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		197FD3D7659C1FD57146158E64958B2B /* UIButton-Vertical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A99BE4787F04DA70C7B06C7322D53B /* UIButton-Vertical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EA24BFE94234AE9D5126571FB6EDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9804CDA69BF9DB9EADC8910222F5D18A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */; };
+		C38D4489ED633C982A9BA97143525936 /* Pods-UIButton-Vertical_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFB8EA939495EAE253FADB63E115FC3 /* Pods-UIButton-Vertical_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAAF2569317DFF7A349086459D571851 /* UIButton-Vertical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E76C41FD2F661B8E65A2A9304A6563 /* UIButton-Vertical-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C419E72D709B6C19BBADCBB1E5B246A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1165D0447E0657931020EC79BED318CA;
+			remoteInfo = "UIButton-Vertical";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0725A497FBF266DAA47438905E54180F /* Pods-UIButton-Vertical_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButton-Vertical_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1278C016EBDA5957DCFDB2BAFF9F4D67 /* Pods-UIButton-Vertical_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButton-Vertical_Example-dummy.m"; sourceTree = "<group>"; };
+		222B8A5C0B48DED724E5C837827D997E /* UIButton-Vertical.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIButton-Vertical.xcconfig"; sourceTree = "<group>"; };
+		29EF8A9E2C4D7EF1861056A8C06ADB46 /* Pods-UIButton-Vertical_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButton-Vertical_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E328226C836F3BECF7C83820859B292 /* Pods-UIButton-Vertical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Example-resources.sh"; sourceTree = "<group>"; };
+		4AFB8EA939495EAE253FADB63E115FC3 /* Pods-UIButton-Vertical_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButton-Vertical_Example-umbrella.h"; sourceTree = "<group>"; };
+		4F00260D452366E7CB6689C401EBC294 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C5A4BFBB6A26C0981BC295BABF9556 /* Pods_UIButton_Vertical_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButton_Vertical_Example.framework; path = "Pods-UIButton-Vertical_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		511E724F94D5354BBF8CAC7FA9C97491 /* Pods-UIButton-Vertical_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButton-Vertical_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53708D83E4240CFE00775822B60F0D50 /* Pods_UIButton_Vertical_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButton_Vertical_Tests.framework; path = "Pods-UIButton-Vertical_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5C22DB0213C6487CF4C24F40947F14 /* Pods-UIButton-Vertical_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6C7E77AD2CE9489FBE396498B845C2EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8150E8B2547A57139B65A36C2A4E12 /* Pods-UIButton-Vertical_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7461A381995DAAEBA6FF9113E0DF5171 /* Pods-UIButton-Vertical_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButton-Vertical_Tests-dummy.m"; sourceTree = "<group>"; };
+		77AFDF0A9D6E7CB540072F8FF9D1E775 /* Pods-UIButton-Vertical_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButton-Vertical_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F615D9462C9532396186F56FEC07535 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8018F31DACE41B85B11825F8FF778384 /* Pods-UIButton-Vertical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963B50EEF307AD13ADA12AE7BEA90590 /* Pods-UIButton-Vertical_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButton-Vertical_Example.modulemap"; sourceTree = "<group>"; };
+		97EE90CFD5B78543675FFC33062EC138 /* UIButton-Vertical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIButton-Vertical.modulemap"; sourceTree = "<group>"; };
+		B5B999C446650BB3D5EB37C65241D5CB /* Pods-UIButton-Vertical_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButton-Vertical_Tests.modulemap"; sourceTree = "<group>"; };
+		B9272880D6487664DDEB72E51A3C648A /* Pods-UIButton-Vertical_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Tests-resources.sh"; sourceTree = "<group>"; };
+		B9BE3F72037E789E66BE2163E40B273E /* Pods-UIButton-Vertical_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD393BDA8A8BE74994DB2026EDBA9F2B /* Pods-UIButton-Vertical_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButton-Vertical_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C058B2A37BA07DCED9A767C5E0F92E15 /* Pods-UIButton-Vertical_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D396F0387D98E23DB652ED0F11DEB8E1 /* UIButton-Vertical-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton-Vertical-prefix.pch"; sourceTree = "<group>"; };
+		E0A99BE4787F04DA70C7B06C7322D53B /* UIButton-Vertical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton-Vertical-umbrella.h"; sourceTree = "<group>"; };
+		E6B453E54935D17467AE932E897B1D30 /* UIButton_Vertical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButton_Vertical.framework; path = "UIButton-Vertical.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E76C41FD2F661B8E65A2A9304A6563 /* UIButton-Vertical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton-Vertical-dummy.m"; sourceTree = "<group>"; };
+		FE4E78A9513C10787687ED43F43E7384 /* Pods-UIButton-Vertical_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F10C30A3EA70C4CFDF69C8EFFCB887B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C3EFD50870AC7260327E55BFD936D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B250C256DFAE1E472AFFB5FB4188DFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA24BFE94234AE9D5126571FB6EDFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EBDC3B577029EDD76A8B189FAC5024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0114531E0E748DE3A6232FB51E8F2A80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C16C0571E7BE726CBD492E8DA31D659 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F85D1DB253EF75DC7189A28AFDDE898 /* UIButton-Vertical */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B894C3D8E60B7616231C09DCE9D1A34 /* UIButton-Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				C89F11E8D569D48AE2E0FBE4EAA09279 /* Classes */,
+			);
+			name = "UIButton-Vertical";
+			path = "UIButton-Vertical";
+			sourceTree = "<group>";
+		};
+		5F85D1DB253EF75DC7189A28AFDDE898 /* UIButton-Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				F42A3D3E57D647B3C6394ACD7E6A3C01 /* Support Files */,
+				2B894C3D8E60B7616231C09DCE9D1A34 /* UIButton-Vertical */,
+			);
+			name = "UIButton-Vertical";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F87EDA1FCEB70DE9BE5B26C725FBF32 /* Pods-UIButton-Vertical_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E77AD2CE9489FBE396498B845C2EF /* Info.plist */,
+				963B50EEF307AD13ADA12AE7BEA90590 /* Pods-UIButton-Vertical_Example.modulemap */,
+				511E724F94D5354BBF8CAC7FA9C97491 /* Pods-UIButton-Vertical_Example-acknowledgements.markdown */,
+				BD393BDA8A8BE74994DB2026EDBA9F2B /* Pods-UIButton-Vertical_Example-acknowledgements.plist */,
+				1278C016EBDA5957DCFDB2BAFF9F4D67 /* Pods-UIButton-Vertical_Example-dummy.m */,
+				6A5C22DB0213C6487CF4C24F40947F14 /* Pods-UIButton-Vertical_Example-frameworks.sh */,
+				3E328226C836F3BECF7C83820859B292 /* Pods-UIButton-Vertical_Example-resources.sh */,
+				4AFB8EA939495EAE253FADB63E115FC3 /* Pods-UIButton-Vertical_Example-umbrella.h */,
+				C058B2A37BA07DCED9A767C5E0F92E15 /* Pods-UIButton-Vertical_Example.debug.xcconfig */,
+				6E8150E8B2547A57139B65A36C2A4E12 /* Pods-UIButton-Vertical_Example.release.xcconfig */,
+			);
+			name = "Pods-UIButton-Vertical_Example";
+			path = "Target Support Files/Pods-UIButton-Vertical_Example";
+			sourceTree = "<group>";
+		};
+		67FDEA0AD6B62A8F68D0E03A0313683F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F87EDA1FCEB70DE9BE5B26C725FBF32 /* Pods-UIButton-Vertical_Example */,
+				FB83565466AA29BC3ADB6A37F54EB584 /* Pods-UIButton-Vertical_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1C16C0571E7BE726CBD492E8DA31D659 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEEC060B2AD491F5C03983BA92F39076 /* Products */,
+				67FDEA0AD6B62A8F68D0E03A0313683F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEEC060B2AD491F5C03983BA92F39076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C5A4BFBB6A26C0981BC295BABF9556 /* Pods_UIButton_Vertical_Example.framework */,
+				53708D83E4240CFE00775822B60F0D50 /* Pods_UIButton_Vertical_Tests.framework */,
+				E6B453E54935D17467AE932E897B1D30 /* UIButton_Vertical.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89F11E8D569D48AE2E0FBE4EAA09279 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F42A3D3E57D647B3C6394ACD7E6A3C01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F615D9462C9532396186F56FEC07535 /* Info.plist */,
+				97EE90CFD5B78543675FFC33062EC138 /* UIButton-Vertical.modulemap */,
+				222B8A5C0B48DED724E5C837827D997E /* UIButton-Vertical.xcconfig */,
+				F3E76C41FD2F661B8E65A2A9304A6563 /* UIButton-Vertical-dummy.m */,
+				D396F0387D98E23DB652ED0F11DEB8E1 /* UIButton-Vertical-prefix.pch */,
+				E0A99BE4787F04DA70C7B06C7322D53B /* UIButton-Vertical-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIButton-Vertical";
+			sourceTree = "<group>";
+		};
+		FB83565466AA29BC3ADB6A37F54EB584 /* Pods-UIButton-Vertical_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F00260D452366E7CB6689C401EBC294 /* Info.plist */,
+				B5B999C446650BB3D5EB37C65241D5CB /* Pods-UIButton-Vertical_Tests.modulemap */,
+				77AFDF0A9D6E7CB540072F8FF9D1E775 /* Pods-UIButton-Vertical_Tests-acknowledgements.markdown */,
+				29EF8A9E2C4D7EF1861056A8C06ADB46 /* Pods-UIButton-Vertical_Tests-acknowledgements.plist */,
+				7461A381995DAAEBA6FF9113E0DF5171 /* Pods-UIButton-Vertical_Tests-dummy.m */,
+				8018F31DACE41B85B11825F8FF778384 /* Pods-UIButton-Vertical_Tests-frameworks.sh */,
+				B9272880D6487664DDEB72E51A3C648A /* Pods-UIButton-Vertical_Tests-resources.sh */,
+				0725A497FBF266DAA47438905E54180F /* Pods-UIButton-Vertical_Tests-umbrella.h */,
+				B9BE3F72037E789E66BE2163E40B273E /* Pods-UIButton-Vertical_Tests.debug.xcconfig */,
+				FE4E78A9513C10787687ED43F43E7384 /* Pods-UIButton-Vertical_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIButton-Vertical_Tests";
+			path = "Target Support Files/Pods-UIButton-Vertical_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		018B333CE80B7E05724D4BFF64B5C879 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197FD3D7659C1FD57146158E64958B2B /* UIButton-Vertical-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3357E2FEA7E747E5E95E650E95BDE3EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D4489ED633C982A9BA97143525936 /* Pods-UIButton-Vertical_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F303CE839FD767553AC24BEBFFAB0675 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153ADAEF04363D9ED590FF81C034DE15 /* Pods-UIButton-Vertical_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1165D0447E0657931020EC79BED318CA /* UIButton-Vertical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D507761AE1258F2C3A6A060E1D0EBB7 /* Build configuration list for PBXNativeTarget "UIButton-Vertical" */;
+			buildPhases = (
+				FE503CBBF12EF69C1473A5D9CCD29014 /* Sources */,
+				9F10C30A3EA70C4CFDF69C8EFFCB887B /* Frameworks */,
+				018B333CE80B7E05724D4BFF64B5C879 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIButton-Vertical";
+			productName = "UIButton-Vertical";
+			productReference = E6B453E54935D17467AE932E897B1D30 /* UIButton_Vertical.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D33DAA8C3192ED022C000C2325A3364C /* Pods-UIButton-Vertical_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4583BBAD25A98E3F03D106988D06CD78 /* Build configuration list for PBXNativeTarget "Pods-UIButton-Vertical_Tests" */;
+			buildPhases = (
+				1137606FA79327F736EE5B94832656B5 /* Sources */,
+				F3EBDC3B577029EDD76A8B189FAC5024 /* Frameworks */,
+				F303CE839FD767553AC24BEBFFAB0675 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIButton-Vertical_Tests";
+			productName = "Pods-UIButton-Vertical_Tests";
+			productReference = 53708D83E4240CFE00775822B60F0D50 /* Pods_UIButton_Vertical_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9ECC5D57B5D6B2AF18490E887C9671A /* Pods-UIButton-Vertical_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE5B51CFC3BC202174B61F1EADD8751 /* Build configuration list for PBXNativeTarget "Pods-UIButton-Vertical_Example" */;
+			buildPhases = (
+				D3715B94A154BCA062B5F943385DECAD /* Sources */,
+				B250C256DFAE1E472AFFB5FB4188DFCC /* Frameworks */,
+				3357E2FEA7E747E5E95E650E95BDE3EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865864DD0C886E53B9D26589337BAE24 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButton-Vertical_Example";
+			productName = "Pods-UIButton-Vertical_Example";
+			productReference = 50C5A4BFBB6A26C0981BC295BABF9556 /* Pods_UIButton_Vertical_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BEEC060B2AD491F5C03983BA92F39076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9ECC5D57B5D6B2AF18490E887C9671A /* Pods-UIButton-Vertical_Example */,
+				D33DAA8C3192ED022C000C2325A3364C /* Pods-UIButton-Vertical_Tests */,
+				1165D0447E0657931020EC79BED318CA /* UIButton-Vertical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1137606FA79327F736EE5B94832656B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C8613EEA6433FD4C0192923A65B54F /* Pods-UIButton-Vertical_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3715B94A154BCA062B5F943385DECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D28F5F379F9349CD0FF3CC3C615807 /* Pods-UIButton-Vertical_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE503CBBF12EF69C1473A5D9CCD29014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9804CDA69BF9DB9EADC8910222F5D18A /* ReplaceMe.m in Sources */,
+				EAAF2569317DFF7A349086459D571851 /* UIButton-Vertical-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865864DD0C886E53B9D26589337BAE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIButton-Vertical";
+			target = 1165D0447E0657931020EC79BED318CA /* UIButton-Vertical */;
+			targetProxy = 6C419E72D709B6C19BBADCBB1E5B246A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F0B2E90C90C16FC39F10A69875A08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222B8A5C0B48DED724E5C837827D997E /* UIButton-Vertical.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButton-Vertical/UIButton-Vertical-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButton-Vertical/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButton-Vertical/UIButton-Vertical.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIButton_Vertical;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E530D23C962C2DB9FE7952ED2067FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222B8A5C0B48DED724E5C837827D997E /* UIButton-Vertical.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButton-Vertical/UIButton-Vertical-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButton-Vertical/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButton-Vertical/UIButton-Vertical.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIButton_Vertical;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4120A20056652F26585C9830751332D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8150E8B2547A57139B65A36C2A4E12 /* Pods-UIButton-Vertical_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButton-Vertical_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButton-Vertical_Example/Pods-UIButton-Vertical_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButton_Vertical_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE7160080F7F741F78B8129F77BEC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BE3F72037E789E66BE2163E40B273E /* Pods-UIButton-Vertical_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButton-Vertical_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButton-Vertical_Tests/Pods-UIButton-Vertical_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButton_Vertical_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB847DBDEA1A7BF07A1EFC6E2B13955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4E78A9513C10787687ED43F43E7384 /* Pods-UIButton-Vertical_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButton-Vertical_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButton-Vertical_Tests/Pods-UIButton-Vertical_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButton_Vertical_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF482F3A5D2974469C00E52366B6D27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C058B2A37BA07DCED9A767C5E0F92E15 /* Pods-UIButton-Vertical_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButton-Vertical_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButton-Vertical_Example/Pods-UIButton-Vertical_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButton_Vertical_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE5B51CFC3BC202174B61F1EADD8751 /* Build configuration list for PBXNativeTarget "Pods-UIButton-Vertical_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF482F3A5D2974469C00E52366B6D27D /* Debug */,
+				4120A20056652F26585C9830751332D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4583BBAD25A98E3F03D106988D06CD78 /* Build configuration list for PBXNativeTarget "Pods-UIButton-Vertical_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE7160080F7F741F78B8129F77BEC9A /* Debug */,
+				AB847DBDEA1A7BF07A1EFC6E2B13955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D507761AE1258F2C3A6A060E1D0EBB7 /* Build configuration list for PBXNativeTarget "UIButton-Vertical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F0B2E90C90C16FC39F10A69875A08D /* Debug */,
+				2E530D23C962C2DB9FE7952ED2067FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
