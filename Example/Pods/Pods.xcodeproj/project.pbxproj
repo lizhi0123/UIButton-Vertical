@@ -14,7 +14,12 @@
 		16C3EFD50870AC7260327E55BFD936D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		197FD3D7659C1FD57146158E64958B2B /* UIButton-Vertical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A99BE4787F04DA70C7B06C7322D53B /* UIButton-Vertical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24EA24BFE94234AE9D5126571FB6EDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		9804CDA69BF9DB9EADC8910222F5D18A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */; };
+		9D1661521E07D920004C30C8 /* UIButton+Vertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661501E07D920004C30C8 /* UIButton+Vertical.h */; };
+		9D1661531E07D920004C30C8 /* UIButton+Vertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661501E07D920004C30C8 /* UIButton+Vertical.h */; };
+		9D1661541E07D920004C30C8 /* UIButton+Vertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661501E07D920004C30C8 /* UIButton+Vertical.h */; };
+		9D1661551E07D920004C30C8 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661511E07D920004C30C8 /* UIButton+Vertical.m */; };
+		9D1661561E07D920004C30C8 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661511E07D920004C30C8 /* UIButton+Vertical.m */; };
+		9D1661571E07D920004C30C8 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661511E07D920004C30C8 /* UIButton+Vertical.m */; };
 		C38D4489ED633C982A9BA97143525936 /* Pods-UIButton-Vertical_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFB8EA939495EAE253FADB63E115FC3 /* Pods-UIButton-Vertical_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAAF2569317DFF7A349086459D571851 /* UIButton-Vertical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E76C41FD2F661B8E65A2A9304A6563 /* UIButton-Vertical-dummy.m */; };
 /* End PBXBuildFile section */
@@ -37,9 +42,9 @@
 		3E328226C836F3BECF7C83820859B292 /* Pods-UIButton-Vertical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Example-resources.sh"; sourceTree = "<group>"; };
 		4AFB8EA939495EAE253FADB63E115FC3 /* Pods-UIButton-Vertical_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButton-Vertical_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F00260D452366E7CB6689C401EBC294 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50C5A4BFBB6A26C0981BC295BABF9556 /* Pods_UIButton_Vertical_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButton_Vertical_Example.framework; path = "Pods-UIButton-Vertical_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5A4BFBB6A26C0981BC295BABF9556 /* Pods_UIButton_Vertical_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButton_Vertical_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		511E724F94D5354BBF8CAC7FA9C97491 /* Pods-UIButton-Vertical_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButton-Vertical_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53708D83E4240CFE00775822B60F0D50 /* Pods_UIButton_Vertical_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButton_Vertical_Tests.framework; path = "Pods-UIButton-Vertical_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53708D83E4240CFE00775822B60F0D50 /* Pods_UIButton_Vertical_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButton_Vertical_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5C22DB0213C6487CF4C24F40947F14 /* Pods-UIButton-Vertical_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6C7E77AD2CE9489FBE396498B845C2EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E8150E8B2547A57139B65A36C2A4E12 /* Pods-UIButton-Vertical_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,11 +52,12 @@
 		77AFDF0A9D6E7CB540072F8FF9D1E775 /* Pods-UIButton-Vertical_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButton-Vertical_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F615D9462C9532396186F56FEC07535 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8018F31DACE41B85B11825F8FF778384 /* Pods-UIButton-Vertical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		963B50EEF307AD13ADA12AE7BEA90590 /* Pods-UIButton-Vertical_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButton-Vertical_Example.modulemap"; sourceTree = "<group>"; };
-		97EE90CFD5B78543675FFC33062EC138 /* UIButton-Vertical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIButton-Vertical.modulemap"; sourceTree = "<group>"; };
-		B5B999C446650BB3D5EB37C65241D5CB /* Pods-UIButton-Vertical_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButton-Vertical_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963B50EEF307AD13ADA12AE7BEA90590 /* Pods-UIButton-Vertical_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIButton-Vertical_Example.modulemap"; sourceTree = "<group>"; };
+		97EE90CFD5B78543675FFC33062EC138 /* UIButton-Vertical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIButton-Vertical.modulemap"; sourceTree = "<group>"; };
+		9D1661501E07D920004C30C8 /* UIButton+Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Vertical.h"; sourceTree = "<group>"; };
+		9D1661511E07D920004C30C8 /* UIButton+Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Vertical.m"; sourceTree = "<group>"; };
+		B5B999C446650BB3D5EB37C65241D5CB /* Pods-UIButton-Vertical_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIButton-Vertical_Tests.modulemap"; sourceTree = "<group>"; };
 		B9272880D6487664DDEB72E51A3C648A /* Pods-UIButton-Vertical_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButton-Vertical_Tests-resources.sh"; sourceTree = "<group>"; };
 		B9BE3F72037E789E66BE2163E40B273E /* Pods-UIButton-Vertical_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD393BDA8A8BE74994DB2026EDBA9F2B /* Pods-UIButton-Vertical_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButton-Vertical_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -59,7 +65,7 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D396F0387D98E23DB652ED0F11DEB8E1 /* UIButton-Vertical-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton-Vertical-prefix.pch"; sourceTree = "<group>"; };
 		E0A99BE4787F04DA70C7B06C7322D53B /* UIButton-Vertical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton-Vertical-umbrella.h"; sourceTree = "<group>"; };
-		E6B453E54935D17467AE932E897B1D30 /* UIButton_Vertical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButton_Vertical.framework; path = "UIButton-Vertical.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B453E54935D17467AE932E897B1D30 /* UIButton_Vertical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIButton_Vertical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E76C41FD2F661B8E65A2A9304A6563 /* UIButton-Vertical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton-Vertical-dummy.m"; sourceTree = "<group>"; };
 		FE4E78A9513C10787687ED43F43E7384 /* Pods-UIButton-Vertical_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButton-Vertical_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +111,6 @@
 			children = (
 				C89F11E8D569D48AE2E0FBE4EAA09279 /* Classes */,
 			);
-			name = "UIButton-Vertical";
 			path = "UIButton-Vertical";
 			sourceTree = "<group>";
 		};
@@ -186,9 +191,9 @@
 		C89F11E8D569D48AE2E0FBE4EAA09279 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				866700A3F4882BA34DAF31CAD04FBF37 /* ReplaceMe.m */,
+				9D1661501E07D920004C30C8 /* UIButton+Vertical.h */,
+				9D1661511E07D920004C30C8 /* UIButton+Vertical.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -231,6 +236,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1661541E07D920004C30C8 /* UIButton+Vertical.h in Headers */,
 				197FD3D7659C1FD57146158E64958B2B /* UIButton-Vertical-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1661521E07D920004C30C8 /* UIButton+Vertical.h in Headers */,
 				C38D4489ED633C982A9BA97143525936 /* Pods-UIButton-Vertical_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1661531E07D920004C30C8 /* UIButton+Vertical.h in Headers */,
 				153ADAEF04363D9ED590FF81C034DE15 /* Pods-UIButton-Vertical_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C8613EEA6433FD4C0192923A65B54F /* Pods-UIButton-Vertical_Tests-dummy.m in Sources */,
+				9D1661561E07D920004C30C8 /* UIButton+Vertical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D28F5F379F9349CD0FF3CC3C615807 /* Pods-UIButton-Vertical_Example-dummy.m in Sources */,
+				9D1661551E07D920004C30C8 /* UIButton+Vertical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +365,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9804CDA69BF9DB9EADC8910222F5D18A /* ReplaceMe.m in Sources */,
 				EAAF2569317DFF7A349086459D571851 /* UIButton-Vertical-dummy.m in Sources */,
+				9D1661571E07D920004C30C8 /* UIButton+Vertical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
