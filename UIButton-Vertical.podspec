@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIButton-Vertical'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIButtom 垂直显示Title 和 Image'
   s.description      = <<-DESC
 UIButtom 垂直显示Title 和 Image， title image 上下显示
